@@ -1,6 +1,10 @@
-print('hello world')
+num = 1
+name = 'Mike'
+name = '1'
 
-a = 'test'
-b = a
-c = b
-print(c)
+num = name
+new_num = int(name)
+print(num, type(num))
+
+print(new_num, type(new_num))
+
