@@ -59,4 +59,5 @@ print(s.count('Bob'))
 print(s.capitalize())
 print(s.title())
 print(s.upper())
-print(s.replace('Mike', 'Nancy'))
+
+
