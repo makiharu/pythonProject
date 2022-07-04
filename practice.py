@@ -8,3 +8,10 @@ def getBootstrapClass(screenWidth):
         return "md"
     else:
         return "lg"
+
+def screenViewMode(height,width):
+    # 関数を完成させてください
+    if height >= width:
+        return "portrait"
+    else:
+        return "landscape"
